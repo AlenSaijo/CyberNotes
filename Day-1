@@ -1,0 +1,56 @@
+Cybersecurity Class – Day 1 Summary
+
+Date: [15/06/2025]
+
+Topics Covered:
+
+1. Categories of Hackers:
+• White Hat – Ethical hackers who assist organizations in strengthening their cybersecurity.
+• Black Hat – Malicious actors who exploit system weaknesses for personal or financial gain.
+• Gray Hat – Hackers who may cross legal boundaries but don’t act with malicious intent.
+• Green Hat – Newcomers who are keen to learn the art of hacking.
+• Blue Hat – Individuals motivated by revenge or those who help test systems pre-release.
+• Script Kiddies – Inexperienced users who use existing tools/scripts without deep technical understanding.
+
+2. Stages of a Hack:
+• Reconnaissance – Gathering preliminary data on the target.
+• Scanning – Detecting open ports, services, and system vulnerabilities.
+• Gaining Access – Exploiting discovered flaws to infiltrate a system.
+• Maintaining Access – Ensuring continued control through methods like backdoors.
+• Covering Tracks – Hiding evidence to avoid being detected or traced.
+
+3. Threat Types:
+• Malware – Includes viruses, worms, and trojans.
+• Ransomware – Blocks access to data unless a ransom is paid.
+• Spyware & Adware – Gathers user data or delivers unwanted ads.
+• Social Engineering – Manipulating people into revealing confidential info.
+• Insider Threats – Internal personnel posing a risk to security.
+• Zero-Day Exploits – Attacks on previously unknown vulnerabilities.
+
+⸻
+
+4. Common Attack Techniques:
+• Phishing – Deceiving users to obtain sensitive information.
+• Man-in-the-Middle (MitM) – Intercepting data during communication exchanges.
+• Keylogging – Tracking user keystrokes to steal credentials.
+• Brute Force Attacks – Attempting multiple password combinations until successful.
+• Session Hijacking – Taking over a valid session between user and system.
+• SQL Injection – Exploiting database vulnerabilities through malicious queries.
+
+5. Cybersecurity Roles and Teams:
+• Red Team – Offensive group that emulates real-world attacks to uncover flaws.
+• Blue Team – Defensive unit responsible for protecting and monitoring systems.
+• Purple Team – Facilitates collaboration between red and blue teams to optimize defense.
+• (Optional) Yellow/Green Teams – Focused on embedding security into software design and development stages.
+
+Additional Key Concepts:
+• CIA Triad – The three core principles of security: Confidentiality, Integrity, and Availability
+• Popular Tools – Examples include Wireshark, Nmap, and Burp Suite
+• Security Best Practices – Emphasized the importance of strong passwords and 2FA
+• Linux Basics – Introduction to using the terminal for security tasks
+• Virtual Lab Setup – Brief overview of using virtual machines and Kali Linux
+• Ethical Hacking & Legal Boundaries – Initial insight into hacking ethics and related laws
+
+Reflection:
+Today’s class provided a thorough introduction to the cybersecurity landscape, including hacker profiles, attack phases, threat types, and team roles. It blended foundational theory with practical relevance, building a strong base for more interactive, hands-on experiences in the days ahead.
+
