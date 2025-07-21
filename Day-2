@@ -1,0 +1,77 @@
+Cybersecurity Class – Day 2 Report
+
+Installing Kali Linux on Oracle VirtualBox (Windows Host)
+System Requirements
+To successfully set up Kali Linux on a Windows computer using VirtualBox, you will need the following:
+
+Kali Linux VirtualBox Image
+Download link:
+https://cdimage.kali.org/kali-2025.2/kali-linux-2025.2-virtualbox-amd64.7z
+
+Oracle VirtualBox – A virtualization tool to run operating systems inside your current OS.
+Download link:
+https://download.virtualbox.org/virtualbox/7.1.12/VirtualBox-7.1.12-169651-Win.exe
+
+7-Zip – Used to unzip compressed files like the Kali image.
+Download link:
+https://www.7-zip.org/a/7z2500-x64.exe
+
+Tip: Make sure your computer has at least 10–15 GB of free space available before starting.
+
+  Step 1: Installing Oracle VirtualBox
+Open the VirtualBox installer you downloaded.
+If a prompt appears for admin access, click Yes.
+When the setup wizard launches, hit Next.
+On the Custom Setup screen, keep the default settings and click Next again.
+You might get a Network Interfaces Warning—click Yes to proceed.
+If a Missing Dependencies warning pops up, continue by clicking Yes.
+On the next screen, click Install to begin installation.
+Once complete, click Finish.
+
+Installation Troubleshooting
+Issue 1: Visual C++ Dependency Missing
+Error Message: Missing Microsoft Visual C++ 2015–2022 Redistributable
+
+Fix:
+Download the required package:
+https://aka.ms/vs/17/release/vc_redist.x64.exe
+Install the redistributable.
+Restart the VirtualBox installation.
+
+Issue 2: AMD-V Virtualization Disabled
+Error Message: “AMD-V is disabled by BIOS or host OS.”
+Fix:Reboot your system and access the BIOS settings.
+Use the correct key based on your laptop brand:
+Dell: F2 / F12
+Lenovo: F1 / F2 or Fn + F2
+Acer: DEL / F2
+HP: Esc / F10
+Go to Advanced Settings, find Virtualization or SVM Mode, and enable it.
+Save changes and exit BIOS.
+
+Step 2: Install 7-Zip File Archiver
+Right-click on the 7-Zip installer and choose Run as Administrator.
+In the installation window, click Install.
+Once done, click Close.
+
+Step 3: Extract Kali Linux VirtualBox Image
+Navigate to the folder where the Kali image file (.7z) is saved.
+Right-click on it, choose Show more options → 7-Zip → Extract Here.
+Wait for extraction to finish (this may take a few minutes depending on system speed).
+
+  Step 4: Launching Kali Linux in VirtualBox
+(Optional) Create a separate disk partition (10–15 GB) for storing the Kali virtual machine.
+Reference: How to create partitions – YouTube Guide
+Move the extracted files to the new partition.
+Inside the extracted folder, locate:
+The .vbox file (VirtualBox Machine Definition)
+The .vdi file (Virtual Disk Image)
+Double-click the .vbox file—this opens the virtual machine in Oracle VirtualBox.
+Click Start to run the VM. The initial boot may take some time.
+Once the system starts, use the following credentials to log in:
+Username: kali
+Password: kali
+
+  Summary:
+In today’s class, we focused on setting up a working virtual lab environment using Oracle VirtualBox and Kali Linux. The instructor demonstrated step-by-step how to install necessary tools, resolve common installation issues, and boot up Kali Linux for the first time. This foundational setup is essential for practicing ethical hacking and hands-on cybersecurity tasks in the coming sessions.
+
