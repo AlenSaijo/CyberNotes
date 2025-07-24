@@ -1,0 +1,48 @@
+Linux Commands (What I Did)
+"So I started exploring Linux, and here's what I ended up doing.
+I ran ls to see what files were in the directory. Then I used cd to move into different folders. I created some empty files using touch, just to test things out.
+Whenever I wanted to display something in the terminal, I used echo.
+When I didn’t know what a command did, I checked the manual with man.
+I also found ls -lh really helpful—it showed me file sizes in a readable way like MB instead of just bytes.
+At one point, I needed to duplicate a file, so I used cp, and then I tried mv when I had to rename one.
+Lastly, I played with chmod to change permissions and understand how access works for files."
+
+Malware Analysis (What I Learned)
+"I got into some basic malware analysis too.
+First, I did static analysis, where I just looked at the code without running anything—kind of like reading the recipe without cooking.
+Then I tried dynamic analysis, where I ran the malware in a safe lab setup to watch what it actually does in real time.
+While digging deeper, I came across some cool stuff:
+
+I learned about ATA software, which detects weird or suspicious activity in networks.
+
+I came across something called prompt injection—basically, people can feed sneaky inputs to mess with AI responses.
+
+I worked in Bash, the command-line shell, to run Linux commands.
+
+I also explored the Villain Framework, which is like a toolkit for managing reverse shells during penetration testing.
+
+One thing that surprised me was how AV scans can detect malware on disk, but they often miss the stuff running in memory."
+
+Git Workflow (What I Did with Git)
+"When working with Git, I started by cloning a repository using:
+git clone <repo-link>
+Then I checked the status of my repo with:
+git status
+Whenever I made changes, I added them using:
+git add .
+After that, I committed those changes with a message like:
+git commit -m "Added login feature"
+And when I was done, I pushed it all to GitHub using:
+git push
+It felt smooth once I got the hang of it!"
+
+chmod (How I Figured It Out)
+"At one point, I needed to understand file permissions, so I looked into chmod.
+I learned that each file has permissions for the owner, group, and others, and each of them can read (r), write (w), or execute (x) a file.
+The numbers behind chmod made sense once I realized it’s just basic math:
+r = 4, w = 2, x = 1
+So, full access is 7 (4+2+1).
+If I wanted the owner to have full access and everyone else just read and execute, I’d use:
+chmod 755 filename
+That was a big “aha!” moment for me."
+
